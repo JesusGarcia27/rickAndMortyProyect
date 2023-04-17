@@ -38,21 +38,21 @@ function App() {
         <div className=" text-center border-solid border-3 border-[#8EFF8B] ">
           <div className="flex min-h-0 justify-center">
           
-            <img className=" h-1/5  bg-cover opacity-25 " src="/public/images/Ellipse.png" alt="" />
+            <img className=" h-1/5  bg-cover opacity-25 " src="/images/Ellipse.png" alt="" />
             <div className="absolute top-0 left-1/2 transform -translate-x-1/2 ">
-              <img className="max-w-5xl sm:max-w-7xl " src="/public/images/img4.png" alt="" />
+              <img className="max-w-5xl sm:max-w-7xl " src="/images/img4.png" alt="" />
               <div className="flex justify-center">
-                <img className=" " src="/public/images/img3.png" alt="" />
+                <img className=" " src="/images/img3.png" alt="" />
               </div>
             </div>
           
           </div>
           <input id="locationId"
             placeholder="Type a location id ..."
-            className="border-solid border-2 border-[#8EFF8B] rounded-md bg-gray-500 opacity-40 shadow-lg shadow-[#8EFF8B]/70 text-white"
+            className="mt-5 border-solid border-2 border-[#8EFF8B] rounded-md bg-gray-500 opacity-40 shadow-lg shadow-[#8EFF8B]/70 text-white"
             type="text"
           />
-          <button className="px-4 bg-[#23b81ecc] text-white shadow-lg shadow-[#8EFF8B]/70 rounded-sm ">
+          <button className="mt-5 px-4 bg-[#23b81ecc] text-white shadow-lg shadow-[#8EFF8B]/70 rounded-sm ">
             Search <i className='bx bx-search px-1 bg'></i>
           </button>
         </div>
